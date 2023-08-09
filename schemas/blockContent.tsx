@@ -1,4 +1,4 @@
-import {defineType, defineArrayMember} from 'sanity'
+import {defineArrayMember, defineType} from 'sanity'
 
 /**
  * This is the schema definition for the rich text fields used for
@@ -10,6 +10,7 @@ import {defineType, defineArrayMember} from 'sanity'
  *    type: 'blockContent'
  *  }
  */
+
 export default defineType({
   title: 'Block Content',
   name: 'blockContent',

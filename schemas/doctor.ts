@@ -1,8 +1,8 @@
 import {defineField, defineType} from 'sanity'
 
 export default defineType({
-  name: 'author',
-  title: 'Author',
+  name: 'doctor',
+  title: 'Doctor',
   type: 'document',
   fields: [
     defineField({
@@ -26,6 +26,11 @@ export default defineType({
       options: {
         hotspot: true,
       },
+    }),
+    defineField({
+      name: 'intro',
+      title: 'Intro',
+      type: 'string',
     }),
     defineField({
       name: 'bio',
